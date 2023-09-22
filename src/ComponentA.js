@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ComponentB from './ComponentB';
+
 
 function ComponentA(){
   const dataBeingPassed = {
@@ -11,9 +12,12 @@ function ComponentA(){
     <div>
       <p>This is Component A</p>
       <ComponentB data = {dataBeingPassed} />
+      
     </div>
   )
 }
+
+
 
 
 export default ComponentA;
